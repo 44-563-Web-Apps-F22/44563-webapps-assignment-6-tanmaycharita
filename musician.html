@@ -39,10 +39,16 @@ function checkGuess(){
         alert("wrong musician")
 
     }
+    {
+
+    
+    alert("Sorry, game over");
+    }
+    
     document.getElementById("result").innerHTML = "wrong guess :" + wrong + "\n correct guess :" + correct
 }
 </script>
-<div style="padding: 75px 75px"><img src="ALDERFLIES.jpg" id="bird" height="100px" width="100px" onclick="swapImage()"></div>
+<div style="padding: 75px 75px"><img src="Alderflies.jpg" id="bird" height="100px" width="100px" onclick="swapImage()"></div>
     <script>
         var useImage=1;
         function swapImage(){
@@ -56,7 +62,7 @@ function checkGuess(){
                 useImage=3;
                break;
                 case 3:
-                document.getElementById("bird").src="ALDERFLIES.jpg"
+                document.getElementById("bird").src="Alderflies.jpg"
                 useImage=1;
                 break;
             }

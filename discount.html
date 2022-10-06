@@ -13,8 +13,23 @@
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
     </head>
 <body>
+    <h1 style="color: navy; font-size: 30px;font-family:Arial, Helvetica, sans-serif">Charita Nagadesi Computes Discounts</h1>
+    <form>
+        <label style="font-size: 20px; font-family: 'Times New Roman', Times, serif;" for="base_value_label">Enter the base amount :</label>
+        <input style="margin-left: 93px;border: 2px solid olive; border-radius: 2px; " type="number" id="base_value" name="base value" value=20>
+        <br /><br />
 
-<h1>Charita Nagadesi Computes Discounts</h1>
+        <label style="font-size: 20px; font-family: 'Times New Roman', Times, serif;" for="discount_value_label">Enter the discount percentage:</label>
+        <input style="margin-left: 45px;border: 2px solid olive; border-radius: 2px; " type="number" id="discount_value" name="discount value" value=10>
+        <br /><br />
+
+        <input
+        style="background-color:thistle; border-style: solid; border-radius: 4px; padding: 10px 24px; text-decoration: 10px solid;"
+        type="button" onclick="applydiscount()" value="Compute"> <br /><br />
+
+    <p style="background-color:plum; width: 100%;font-size: 20px; font-family:sans-serif" 
+    id="result1">Discounted amounts for base</p>
+    <br />
 
 <div class="container">
     <form>
